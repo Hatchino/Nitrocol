@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* variable */
+:root{
+    --primary-color: #006a84;
+    --secondery-color: #fff;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+    box-sizing: border-box;
+}
+
+/* header */
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+img {
+    width: 200px;
+}
+#content {
+    max-width: 1440px;
+    margin:auto;
+    padding-top:0;
+}
+.align-horiz {
+    display: flex;
+}
+
+#primary-nav {
+    background: var(--secondery-color);    
+}
+#primary-nav ul {   
+    justify-content: space-around;
+}
+
+#primary-nav li a {
+    padding: 20px 15px;
+    width: 150px;
+    text-align: center;
+    display:block;
+}
+#primary-nav li a:hover {
+   text-decoration: none;
+   color: var(--secondery-color);
+   background: var(--primary-color);
+}
+
+/* footer */
+#footer-nav {
+    background: var(--primary-color);
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+}
+
+/* dashbord page */
+
+#page-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+/* page profil */
+
+#page-profil h1 {
+    text-align: center;
+}
+
+.button {
+    padding: 20px 50px;
+    margin: 50px 0;
+    background-color: #006a84;
+    border: none;
+}
